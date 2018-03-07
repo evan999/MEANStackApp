@@ -1,0 +1,30 @@
+{
+  "name": "mean-app",
+  "version": "1.0.0",
+  "description": "MEAN stack application",
+  "main": "appl.js",
+  "scripts": {
+    "start": "node appl.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/evan999/mean-stack-app.git"
+  },
+  "keywords": [
+    "mean"
+  ],
+  "author": "evan999",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/evan999/mean-stack-app/issues"
+  },
+  "homepage": "https://github.com/evan999/mean-stack-app#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2"
+  },
+  "devDependencies": {
+    "mocha": "^5.0.0"
+  }
+}

@@ -1,0 +1,37 @@
+[
+	{
+		"_id" : ObjectId("53b"),
+		"Title" : "My first post",
+		"Content" : "Some content"
+		"Comments" : [
+			{
+				"_id" : 1,
+				"Content" : "Commenting on your first post"
+			}
+		]
+	},
+	"author" : {
+		"ID" : 1,
+		"DisplayName" : "Evan Mesh"
+	}
+	{
+		"PostID" : 2,
+		"Title" : "My second post",
+		"Content" : "Some content"
+		"Comments" : [
+			{
+				"CommentID" : 2,
+				"Content" : "Commenting on your second post"
+			}
+			{
+				"CommentID" : 3,
+				"Content" : "Commenting on your first post"
+			}
+		]
+	},
+	{
+		"PostID" : 3,
+		"Title" : "My third post",
+		"Content" : "Some content"
+	}
+]
